@@ -1,5 +1,5 @@
 import java.util.*;
-
+/* Ritika Jagtap */
 
 public class printNElementsFromMid{
     public static void main(String[] args){

@@ -1,5 +1,5 @@
 import java.util.*;
-
+/* Ritika Jagtap */
 public class validInputString{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
@@ -14,7 +14,6 @@ public class validInputString{
         }
     }
 }
-
 class Solution{
     public boolean f(String s1, String s2){
         HashMap<Character, Integer> mp = new HashMap<>();

@@ -12,13 +12,11 @@ public class twoSum{
         }
         System.out.println("Enter the target sum: ");
         int target = scanner.nextInt();
-
         Solution sol = new Solution();
         List<Integer> ans = sol.f(nums, target);
         System.out.println(ans.get(0) + " " + ans.get(1));
         scanner.close();
     }
-    
 }
 class Solution{
     public List<Integer> f(List<Integer> nums, int target){

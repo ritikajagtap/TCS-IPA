@@ -25,7 +25,6 @@ public class Medicine{
         for(int ar : arr){
             System.out.println("Prices: " + ar);
         }
-
     }
     public static Integer[] getPriceByDisease(MedicineItem meds[], String disease){
         List<Integer> lis = new ArrayList<>();
@@ -38,7 +37,6 @@ public class Medicine{
         Arrays.sort(arr);
         return arr;
     }
-
 }
 
 class MedicineItem{
